@@ -1,0 +1,44 @@
+transaction_id,case_id,date,time,amount,merchant,location,country,payment_method,fraud_type,difficulty,signals
+TXN_000231,FC006,2024-04-29,13:01:56,206.834,Bijouterie Lumiere,Paris,FR,POS Card,impossible_travel,easy,card-present abroad hours after a card-present payment in Tunis
+TXN_000232,FC006,2024-04-29,13:18:41,134.730,Electro Depot Paris,Paris,FR,POS Card,impossible_travel,easy,card-present abroad hours after a card-present payment in Tunis
+TXN_000293,FC001,2024-05-25,01:11:13,4.262,DonateNow,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_000294,FC001,2024-05-25,01:12:19,2.931,AppVerify,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_000295,FC001,2024-05-25,01:13:51,2.433,AppVerify,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_000296,FC001,2024-05-25,01:15:08,4.760,GiftCheck,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_000297,FC001,2024-05-25,01:19:01,189.900,Mega Gadget Store,Online,US,Online Card,card_testing,easy,"large charge right after micro-charge probes, same new device"
+TXN_000377,FC011,2024-06-28,04:57:56,482.954,Luxe Watches Online,Online,HK,Online Card,night_high_value_online,medium,"single high-value online purchase, 03-05h, new device, unknown merchant"
+TXN_000689,FC009,2024-10-26,01:05:46,250.000,ATM Withdrawal,Algiers,DZ,ATM,atm_cash_out,easy,"repeated foreign ATM withdrawals at night, cloned card, customer location inconsistent"
+TXN_000690,FC009,2024-10-26,01:13:33,200.000,ATM Withdrawal,Algiers,DZ,ATM,atm_cash_out,easy,"repeated foreign ATM withdrawals at night, cloned card, customer location inconsistent"
+TXN_000691,FC009,2024-10-26,01:21:21,150.000,ATM Withdrawal,Algiers,DZ,ATM,atm_cash_out,easy,"repeated foreign ATM withdrawals at night, cloned card, customer location inconsistent"
+TXN_000774,FC004,2024-12-04,02:24:21,278.955,Gadget Hub Online,Online,US,Online Card,account_takeover,medium,"new device, night, first-ever merchant, high value, then escalating spend"
+TXN_000775,FC004,2024-12-04,02:31:52,251.285,LuxeBoutique Online,Online,GB,Online Card,account_takeover,medium,"same new device, second unfamiliar merchant within minutes"
+TXN_000776,FC004,2024-12-04,02:43:43,256.077,Unknown Beneficiary,Online,TN,Bank Transfer,account_takeover,medium,transfer to never-seen beneficiary from new device at night
+TXN_000876,FC012,2025-01-09,04:25:45,344.432,Global Electro Store,Online,HK,Online Card,night_high_value_online,medium,"single high-value online purchase, 03-05h, new device, unknown merchant"
+TXN_000956,FC002,2025-02-12,03:35:21,3.596,GiftCheck,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_000957,FC002,2025-02-12,03:36:08,1.664,GiftCheck,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_000958,FC002,2025-02-12,03:36:56,4.145,DonateNow,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_000959,FC002,2025-02-12,03:38:03,4.487,GiftCheck,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_000960,FC002,2025-02-12,03:39:07,2.839,GiftCheck,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_000961,FC002,2025-02-12,03:42:53,189.000,GiftCards Online,Online,US,Online Card,card_testing,easy,"large charge right after micro-charge probes, same new device"
+TXN_001013,FC014,2025-03-08,03:12:52,14.900,VPNPremium,Online,IE,Online Card,recurring_unauthorized_subscription,hard,small identical monthly charge from a merchant never subscribed to; looks like a normal subscription
+TXN_001062,FC007,2025-03-29,15:41:26,193.763,Gold Souk Trading,Dubai,AE,POS Card,impossible_travel,easy,card-present abroad hours after a card-present payment in Tunis
+TXN_001063,FC007,2025-03-29,15:56:36,158.200,Mall Gadgets Dubai,Dubai,AE,POS Card,impossible_travel,easy,card-present abroad hours after a card-present payment in Tunis
+TXN_001090,FC014,2025-04-07,03:33:26,14.900,VPNPremium,Online,IE,Online Card,recurring_unauthorized_subscription,hard,small identical monthly charge from a merchant never subscribed to; looks like a normal subscription
+TXN_001154,FC014,2025-05-07,03:30:38,14.900,VPNPremium,Online,IE,Online Card,recurring_unauthorized_subscription,hard,small identical monthly charge from a merchant never subscribed to; looks like a normal subscription
+TXN_001204,FC005,2025-05-27,04:21:47,409.433,Gadget Hub Online,Online,US,Online Card,account_takeover,medium,"new device, night, first-ever merchant, high value, then escalating spend"
+TXN_001205,FC005,2025-05-27,04:31:02,272.930,LuxeBoutique Online,Online,GB,Online Card,account_takeover,medium,"same new device, second unfamiliar merchant within minutes"
+TXN_001206,FC005,2025-05-27,04:49:10,259.927,Unknown Beneficiary,Online,TN,Bank Transfer,account_takeover,medium,transfer to never-seen beneficiary from new device at night
+TXN_001226,FC014,2025-06-06,03:33:33,14.900,VPNPremium,Online,IE,Online Card,recurring_unauthorized_subscription,hard,small identical monthly charge from a merchant never subscribed to; looks like a normal subscription
+TXN_001280,FC010,2025-06-29,03:22:03,250.000,ATM Withdrawal,Algiers,DZ,ATM,atm_cash_out,easy,"repeated foreign ATM withdrawals at night, cloned card, customer location inconsistent"
+TXN_001281,FC010,2025-06-29,03:32:52,150.000,ATM Withdrawal,Algiers,DZ,ATM,atm_cash_out,easy,"repeated foreign ATM withdrawals at night, cloned card, customer location inconsistent"
+TXN_001282,FC010,2025-06-29,03:41:46,200.000,ATM Withdrawal,Algiers,DZ,ATM,atm_cash_out,easy,"repeated foreign ATM withdrawals at night, cloned card, customer location inconsistent"
+TXN_001518,FC003,2025-09-27,04:06:07,2.422,GiftCheck,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_001519,FC003,2025-09-27,04:07:16,1.915,GiftCheck,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_001520,FC003,2025-09-27,04:09:04,2.756,StreamTrial,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_001521,FC003,2025-09-27,04:10:10,1.786,GiftCheck,Online,US,Online Card,card_testing,easy,"burst of tiny online charges in minutes, new device, foreign merchants, night"
+TXN_001522,FC003,2025-09-27,04:15:32,189.900,Mega Gadget Store,Online,US,Online Card,card_testing,easy,"large charge right after micro-charge probes, same new device"
+TXN_001594,FC008,2025-10-24,17:55:37,202.252,Bijouterie Lumiere,Paris,FR,POS Card,impossible_travel,easy,card-present abroad hours after a card-present payment in Tunis
+TXN_001595,FC008,2025-10-24,18:08:14,306.480,Electro Depot Paris,Paris,FR,POS Card,impossible_travel,easy,card-present abroad hours after a card-present payment in Tunis
+TXN_001682,FC013,2025-11-29,04:34:59,551.026,CryptoXchange Pro,Online,GB,Online Card,night_high_value_online,medium,"single high-value online purchase, 03-05h, new device, unknown merchant"
+TXN_001726,FC015,2025-12-18,14:47:56,300.000,Unknown Beneficiary,Online,TN,Bank Transfer,authorized_push_payment_scam,hard,customer-initiated from known device in daytime; only signals are new beneficiary and unusually large transfer
+TXN_001730,FC015,2025-12-19,13:51:39,220.000,Unknown Beneficiary,Online,TN,Bank Transfer,authorized_push_payment_scam,hard,customer-initiated from known device in daytime; only signals are new beneficiary and unusually large transfer

@@ -1,0 +1,50 @@
+transaction_id,date,amount,merchant,category,anomaly_type
+TXN_000083,2024-02-14,286.5,Le Grill,Dining,unusually_large_restaurant
+TXN_000134,2024-03-09,492.35,Carrefour,Groceries,unusual_amount_groceries
+TXN_000198,2024-04-12,1000.0,ATM Withdrawal,Cash Withdrawal,unusually_large_cash_withdrawal
+TXN_000267,2024-05-18,7.22,Bolt,Transportation,unusual_frequency_ride_burst
+TXN_000269,2024-05-18,20.1,Bolt,Transportation,unusual_frequency_ride_burst
+TXN_000270,2024-05-18,8.7,Bolt,Transportation,unusual_frequency_ride_burst
+TXN_000272,2024-05-18,9.05,Bolt,Transportation,unusual_frequency_ride_burst
+TXN_000273,2024-05-18,6.03,Bolt,Transportation,unusual_frequency_ride_burst
+TXN_000274,2024-05-18,8.6,Bolt,Transportation,unusual_frequency_ride_burst
+TXN_000275,2024-05-18,7.0,Bolt,Transportation,unusual_frequency_ride_burst
+TXN_000276,2024-05-18,10.03,Bolt,Transportation,unusual_frequency_ride_burst
+TXN_000409,2024-07-11,96.4,Bolt,Transportation,unusual_amount_ride
+TXN_000516,2024-08-18,1180.6,Turkish Airlines,Travel,international_travel
+TXN_000517,2024-08-18,640.4,Booking.com,Travel,international_travel
+TXN_000567,2024-09-05,52.0,Bitaksi,Transportation,international_travel
+TXN_000568,2024-09-05,96.5,Karakoy Lokantasi,Dining,international_travel
+TXN_000571,2024-09-06,9.8,Bank Fees,Other,international_travel
+TXN_000575,2024-09-06,31.2,Mado Cafe,Dining,international_travel
+TXN_000576,2024-09-06,182.0,Grand Bazaar,Shopping,international_travel
+TXN_000579,2024-09-06,300.0,ATM Withdrawal,Cash Withdrawal,international_travel
+TXN_000583,2024-09-07,24.8,Balik Ekmek,Dining,international_travel
+TXN_000584,2024-09-07,78.0,Topkapi Museum,Entertainment,international_travel
+TXN_000586,2024-09-08,66.0,Bosphorus Cruise,Entertainment,international_travel
+TXN_000587,2024-09-08,128.7,Hamdi Restaurant,Dining,international_travel
+TXN_000589,2024-09-09,61.5,Bitaksi,Transportation,international_travel
+TXN_000661,2024-10-12,684.5,Clinique Privee La Marsa,Healthcare,unexpected_expense_medical
+TXN_000763,2024-11-29,1179.0,Tunisianet,Electronics,unusually_large_online_purchase
+TXN_000773,2024-12-03,196.4,Zalando,Shopping,unusual_international_transaction
+TXN_000800,2024-12-14,480.0,Bijouterie El Medina,Shopping,unusual_merchant
+TXN_000843,2024-12-31,15.9,Bolt,Transportation,unusual_frequency_nye_burst
+TXN_000844,2024-12-31,38.0,Pathe Tunis City,Entertainment,unusual_frequency_nye_burst
+TXN_000845,2024-12-31,74.0,Restaurant Le Port,Dining,unusual_frequency_nye_burst
+TXN_000848,2024-12-31,22.5,Paul,Dining,unusual_frequency_nye_burst
+TXN_000851,2024-12-31,8.5,Cafe El Menzah,Dining,unusual_frequency_nye_burst
+TXN_000852,2024-12-31,14.3,Bolt,Transportation,unusual_frequency_nye_burst
+TXN_000853,2024-12-31,9.8,Coffee Break,Dining,unusual_frequency_nye_burst
+TXN_000854,2024-12-31,12.4,Bolt,Transportation,unusual_frequency_nye_burst
+TXN_000855,2024-12-31,19.8,Bolt,Transportation,unusual_frequency_nye_burst
+TXN_000917,2025-01-27,642.3,Garage Auto Moderne,Transportation,unexpected_expense_car_repair
+TXN_000947,2025-02-08,318.2,Sushi Wok,Dining,unusually_large_restaurant
+TXN_000980,2025-02-20,318.6,Pharmacie Centrale,Healthcare,unusual_amount_pharmacy
+TXN_000984,2025-02-22,160.0,Tattoo Studio,Other,unusual_merchant
+TXN_001045,2025-03-19,117.9,Wise,Transfer,unusual_international_transaction
+TXN_001153,2025-05-06,640.3,AliExpress,Shopping,unusually_large_online_purchase
+TXN_001315,2025-07-12,186.35,TotalEnergies,Fuel,unusual_amount_fuel
+TXN_001329,2025-07-15,1060.0,Airbnb,Travel,international_online_booking
+TXN_001393,2025-08-12,150.0,ATM Withdrawal,Cash Withdrawal,unusual_frequency_atm_burst
+TXN_001398,2025-08-12,150.0,ATM Withdrawal,Cash Withdrawal,unusual_frequency_atm_burst
+TXN_001399,2025-08-12,150.0,ATM Withdrawal,Cash Withdrawal,unusual_frequency_atm_burst

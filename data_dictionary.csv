@@ -1,0 +1,23 @@
+column,type,description
+transaction_id,string,"Unique ID TXN_000001..., chronological by date and time (clean file); fraud rows are interleaved, so the ID carries no label information"
+date,date,"YYYY-MM-DD, 2024-01-01 to 2025-12-31"
+time,time,HH:MM:SS local time of the transaction (raw file: column transaction_time)
+amount,float,"Absolute amount in TND, 3 decimals (millimes)"
+transaction_type,enum,DEBIT or CREDIT
+description,string,Bank-statement style text (French/English mix)
+merchant,string,Canonical merchant name
+location,string,"City or Online (fraud rows may use foreign cities, e.g. Paris, Dubai, Algiers)"
+country,string,"ISO-3166 alpha-2 country of the merchant or terminal (TN, TR, US, ...)"
+category,enum,"Groceries, Dining, Transportation, Fuel, Shopping, Electronics, Entertainment, Healthcare, Utilities, Rent, Subscriptions, Insurance, Education, Travel, Transfer, Cash Withdrawal, Salary, Other"
+payment_method,enum,"POS Card, Online Card, ATM, Direct Debit, Standing Order, Bank Transfer, Mobile Wallet"
+card_present,bool,"True for POS Card and ATM, False for Online Card and Mobile Wallet, empty for Direct Debit, Standing Order and Bank Transfer"
+device_id,string,Device used for online payments or app transfers. Customer devices are DEV_A1 (phone) and DEV_B2 (laptop); any other value is an unseen device. Empty when no device applies
+currency,string,TND
+balance_after_transaction,float,Running balance in file order; opening 3640.250 TND on 2023-12-31; never below 150 TND
+is_recurring,bool,"True for salary, rent, bills, subscriptions, insurance, savings standing order. Note: the unauthorized VPN subscription fraud rows are also True on purpose"
+is_fraud,bool,"Ground-truth fraud label (target variable); reimbursement credits are False. Distinct from anomaly_ground_truth, which marks unusual but legitimate behaviour"
+fraud_type,enum,"Empty for legitimate rows. Otherwise: account_takeover, atm_cash_out, authorized_push_payment_scam, card_testing, impossible_travel, night_high_value_online, recurring_unauthorized_subscription"
+raw_id/txn_ref (raw file),string,Row key; raw_id number equals the TXN number; '-dup' suffix = duplicated row; txn_ref links to the clean file
+raw file columns,note,"type = transaction_type, balance = balance_after_transaction, transaction_time = time. Raw has the same messy-format problems on the new columns (mixed time formats, country labels, card_present encodings)"
+anomaly_type (anomaly_ground_truth.csv),string,"Planted behavioural anomaly label (legitimate but unusual), for model evaluation"
+"case_id, difficulty, signals (fraud_ground_truth.csv)",string,"Fraud case grouping, easy/medium/hard rating and the signals a detector can use"
